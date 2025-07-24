@@ -1,0 +1,59 @@
+# 构建文件
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试文件
+*.test
+coverage.out
+coverage.html
+
+# 依赖目录
+vendor/
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 环境文件
+.env
+.env.local
+.env.*.local
+
+# Git文件
+.git/
+.gitignore
+
+# 文档
+README.md
+docs/
+
+# Docker文件
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Makefile
+Makefile
+
+# 临时文件
+tmp/
+temp/

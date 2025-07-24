@@ -1,0 +1,36 @@
+# 后端忽略文件
+backend/bin/
+backend/*.exe
+backend/*.log
+backend/.env
+backend/.env.local
+backend/coverage.out
+backend/coverage.html
+backend/vendor/
+backend/tmp/
+backend/*.db
+backend/*.sqlite*
+backend/config/local.yaml
+backend/config/production.yaml
+backend/*.pem
+backend/*.key
+backend/*.crt
+
+# 前端忽略文件
+frontend/schedule-management-frontend/node_modules/
+frontend/schedule-management-frontend/dist/
+frontend/schedule-management-frontend/.env.local
+frontend/schedule-management-frontend/.env.*.local
+frontend/schedule-management-frontend/coverage/
+frontend/schedule-management-frontend/.nyc_output/
+frontend/schedule-management-frontend/.vscode/
+frontend/schedule-management-frontend/.idea/
+
+# 通用忽略
+.DS_Store
+*.log
+*.tmp
+.vscode/
+.idea/
+
+*.md
